@@ -1,15 +1,15 @@
 [tool.poetry]
-name = "mobile-tests-lesson-13"
+name = "qa-guru-python-5-23-mobile-autotests-with-browserstack-hw"
 version = "0.1.0"
-description = "mobile end-to-end testing on browserstack with selene + appium + pytest"
-authors = ["yashaka <yashaka@gmail.com>"]
-license = "MIT"
-packages = [{include = "mobile_tests_lesson_13"}]
+description = ""
+authors = ["Maksim A"]
+readme = "README.md"
+packages = [{include = "qa_guru_python_5_23_mobile_autotests_with_browserstack_hw"}]
 
 [tool.poetry.dependencies]
-python = "^3.10.5"
+python = "^3.10"
 selenium = "4.5.0"
-selene = {version = "^2.0.0-beta.17", allow-prereleases = true}
+selene = "^2.0.0-beta.17"
 Appium-Python-Client = "^2.8.1"
 pytest = "^7.3.2"
 pytest-xdist = "^2.5.0"
@@ -18,9 +18,7 @@ requests = "^2.28.1"
 pydantic = "^1.10.5"
 python-dotenv = "^0.21.0"
 
-[tool.poetry.dev-dependencies]
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-

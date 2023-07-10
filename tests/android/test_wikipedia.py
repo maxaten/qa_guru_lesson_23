@@ -24,7 +24,7 @@ def test_search_2():
     with step('Type search "GitHub"'):
         browser.element((AppiumBy.ACCESSIBILITY_ID, 'Search Wikipedia')).click()
         browser.element((AppiumBy.ID, 'org.wikipedia.alpha:id/search_src_text')).type(
-            'GitHub'
+            'Google'
         )
 
     with step('Verify content found - results should appear'):
